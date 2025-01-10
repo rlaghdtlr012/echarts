@@ -457,7 +457,7 @@ function getRichItemNames(textStyleModel: Model<LabelOption>) {
 }
 const TEXT_PROPS_WITH_GLOBAL = [
     'fontStyle', 'fontWeight', 'fontSize', 'fontFamily',
-    'textShadowColor', 'textShadowBlur', 'textShadowOffsetX', 'textShadowOffsetY'
+    'textShadowColor', 'textShadowBlur', 'textShadowOffsetX', 'textShadowOffsetY', 'textDecoration'
 ] as const;
 const TEXT_PROPS_SELF = [
     'align', 'lineHeight', 'width', 'height', 'tag', 'verticalAlign', 'ellipsis'
